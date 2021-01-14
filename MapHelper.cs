@@ -148,7 +148,7 @@ namespace MapHelper
                         badmods++;
 
                     }
-                    else if (mod.Record.Group == "MapPlayersBlock" && Settings.RedBlock)  //Reduced block
+                    else if (mod.Record.Group == "MapPlayersBlockAndArmour" && Settings.RedBlock)  //Reduced block
                     {
                         var drawRect = map.GetClientRect();
                         drawRect.X -= 5;
