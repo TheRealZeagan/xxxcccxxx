@@ -11,8 +11,8 @@ namespace MapHelper
             Enable = new ToggleNode(false);
             MapHelperKey = Keys.F5;
 
-            EleReflect = new ToggleNode(true);
-            RedBlock = new ToggleNode(true);
+            PhysicalReflect = new ToggleNode(true);
+            ReducedBlock = new ToggleNode(true);
             NoRegen = new ToggleNode(true);
             //NoRegenValue = new RangeNode<float>(60, 0, 100);
 
