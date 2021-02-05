@@ -21,9 +21,9 @@ namespace MapHelper
         public ToggleNode Enable { get; set; }
         public HotkeyNode MapHelperKey { get; set; }
 
-        public ToggleNode Physical Reflect { get; set; }
-        public ToggleNode Reduced Block { get; set; }
-        public ToggleNode No Regen { get; set; }
+        public ToggleNode PhysicalReflect { get; set; }
+        public ToggleNode ReducedBlock { get; set; }
+        public ToggleNode No egen { get; set; }
         //public RangeNode<float>NoRegenValue { get; set; } 
 
 
