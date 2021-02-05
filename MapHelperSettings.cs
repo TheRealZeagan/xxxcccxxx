@@ -23,7 +23,7 @@ namespace MapHelper
 
         public ToggleNode PhysicalReflect { get; set; }
         public ToggleNode ReducedBlock { get; set; }
-        public ToggleNode No egen { get; set; }
+        public ToggleNode NoRegen { get; set; }
         //public RangeNode<float>NoRegenValue { get; set; } 
 
 
