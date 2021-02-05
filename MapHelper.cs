@@ -129,9 +129,8 @@ namespace MapHelper
 
                 foreach (var mod in values)
                 {
-                    if (mod.Record.Group == "MapMonsterElementalReflection" && Settings.EleReflect)  //ele reflect
+                    if (mod.Record.Group == "MapMonsterPhysicalReflection" && Settings.PhysicalReflect)  //ele reflect
                     {
-                        //LogMessage("ELE REFLECT FOUND", 5);
                         var drawRect = map.GetClientRect();
                         drawRect.X -= 5;
                         drawRect.Y -= 5;
@@ -140,7 +139,6 @@ namespace MapHelper
                     }
                     else if (mod.Record.Group == "MapPlayerReducedRegen" && Settings.NoRegen)  //no regen/ reduced regen
                     {
-                        //LogMessage("ELE REFLECT FOUND", 5);
                         var drawRect = map.GetClientRect();
                         drawRect.X -= 5;
                         drawRect.Y -= 5;
@@ -148,7 +146,7 @@ namespace MapHelper
                         badmods++;
 
                     }
-                    else if (mod.Record.Group == "MapPlayersBlockAndArmour" && Settings.RedBlock)  //Reduced block
+                    else if (mod.Record.Group == "MapPlayersBlockAndArmour" && Settings.ReducedBlock)  //Reduced block
                     {
                         var drawRect = map.GetClientRect();
                         drawRect.X -= 5;
