@@ -14,7 +14,7 @@ namespace MapHelper
             PhysicalReflect = new ToggleNode(false);
             ReducedBlock = new ToggleNode(true);
             NoRegen = new ToggleNode(true);
-			ElementalReflect = new TogglemMode(true);
+			ElementalReflect = new ToggleNode(true);
             //NoRegenValue = new RangeNode<float>(60, 0, 100);
 
         }
